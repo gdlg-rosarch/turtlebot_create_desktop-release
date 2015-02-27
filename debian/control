@@ -1,0 +1,12 @@
+Source: ros-indigo-create-dashboard
+Section: misc
+Priority: extra
+Maintainer: Marcus Liebhardt <marcus.liebhardt@yujinrobot.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin, ros-indigo-create-node, ros-indigo-diagnostic-msgs, ros-indigo-rospy, ros-indigo-rqt-gui, ros-indigo-rqt-gui-py, ros-indigo-rqt-robot-dashboard
+Homepage: http://ros.org/wiki/create_dashboard
+Standards-Version: 3.9.2
+
+Package: ros-indigo-create-dashboard
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-create-node, ros-indigo-diagnostic-msgs, ros-indigo-rospy, ros-indigo-rqt-gui, ros-indigo-rqt-gui-py, ros-indigo-rqt-robot-dashboard
+Description: The Create dashboard is a RQT-based plug-in for visualising data from the Create and giving easy access to basic functionalities.
